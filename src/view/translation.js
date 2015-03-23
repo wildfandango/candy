@@ -284,6 +284,7 @@ Candy.View.Translation = {
 		'messageSubmit': 'Enviar',
 
 		'labelUsername': 'Usuario:',
+		'labelNickname': 'Alias:',
 		'labelPassword': 'Clave:',
 		'loginSubmit'  : 'Entrar',
 		'loginInvalid'  : 'JID no válido',
@@ -292,11 +293,11 @@ Candy.View.Translation = {
 		'subject'				: 'Asunto:',
 		'reasonWas'				: 'La razón fue: %s.',
 		'kickActionLabel'		: 'Expulsar',
-		'youHaveBeenKickedBy'   : 'Has sido expulsado de %1$s por %2$s',
-		'youHaveBeenKicked'     : 'Has sido expulsado de %s',
+		'youHaveBeenKickedBy'   : 'Ha sido expulsado de %1$s por %2$s',
+		'youHaveBeenKicked'     : 'Ha sido expulsado de %s',
 		'banActionLabel'		: 'Prohibir',
-		'youHaveBeenBannedBy'   : 'Has sido expulsado permanentemente de %1$s por %2$s',
-		'youHaveBeenBanned'     : 'Has sido expulsado permanentemente de %s',
+		'youHaveBeenBannedBy'   : 'Ha sido expulsado permanentemente de %1$s por %2$s',
+		'youHaveBeenBanned'     : 'Ha sido expulsado permanentemente de %s',
 
 		'privateActionLabel' : 'Chat privado',
 		'ignoreActionLabel'  : 'Ignorar',
@@ -310,12 +311,13 @@ Candy.View.Translation = {
 		'userLeftRoom'             : '%s ha dejado la sala.',
 		'userHasBeenKickedFromRoom': '%s ha sido expulsado de la sala.',
 		'userHasBeenBannedFromRoom': '%s ha sido expulsado permanentemente de la sala.',
+		'userChangedNick': '%1$s ahora se llama %2$s.',
 
 		'dateFormat': 'dd.mm.yyyy',
 		'timeFormat': 'HH:MM:ss',
 
 		'tooltipRole'			: 'Moderador',
-		'tooltipIgnored'		: 'Ignoras a éste usuario',
+		'tooltipIgnored'		: 'Usted ignora a éste usuario',
 		'tooltipEmoticons'		: 'Emoticonos',
 		'tooltipSound'			: 'Reproducir un sonido para nuevos mensajes privados',
 		'tooltipAutoscroll'		: 'Desplazamiento automático',
@@ -331,8 +333,9 @@ Candy.View.Translation = {
 
 		'errorMembersOnly': 'No se puede unir a la sala "%s": no tiene privilegios suficientes.',
 		'errorMaxOccupantsReached': 'No se puede unir a la sala "%s": demasiados participantes.',
+		'errorAutojoinMissing': 'No hay sala definida para auto-unirse. Establezca una para continuar.',
 
-		'antiSpamMessage' : 'Por favor, no hagas spam. Has sido bloqueado temporalmente.'
+		'antiSpamMessage' : 'Por favor, no haga spam. Ha sido bloqueado temporalmente.'
 	},
 	'cn': {
 		'status': '状态: %s',
